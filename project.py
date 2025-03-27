@@ -31,7 +31,7 @@ if st.button("Show Country Info"):
     
     if info:
         #  Display Details in a Card Format
-        st.subheader(f"🌎 {info['Name']} Information")
+        st.subheader(f"🔍 {info['Name']} Information")
         col1, col2 = st.columns([2, 1])
         
         with col1:
